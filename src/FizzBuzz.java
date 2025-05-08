@@ -11,7 +11,7 @@ class FizzBuzz {
 
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         if (i % 3 == 0 && i % 5 == 0){
             System.out.println("Fizz Buzz");
         }
